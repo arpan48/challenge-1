@@ -1,0 +1,229 @@
+/*FONT*/
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+/*--------------------*/
+
+/*img*/
+
+/*--------------------*/
+
+/*GLOBAL*/
+body {
+  font-family: "Nunito", sans-serif;
+  height: 100%;
+  width: 100%;
+  background-color: lightsalmon;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: white;
+  opacity: 70%;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 100%;
+}
+
+a:active {
+  color: lightblue;
+}
+
+section > nav > ul > li {
+  color: white;
+  opacity: 60%;
+}
+
+#year > a:hover {
+  color: white;
+  opacity: 100%;
+  font-size: 1.7rem;
+}
+
+#article {
+  color: white;
+}
+
+#article > h2 {
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+.date {
+  font-weight: 200;
+  opacity: 70%;
+}
+
+p {
+  font-weight: 200;
+}
+/*--------------------*/
+
+/* mobile */
+@media (min-device-width: 320px) and (max-device-width: 480px) {
+  section {
+    text-align: left;
+    width: 25%;
+    float: left;
+  }
+
+  #year {
+    margin: 0;
+    margin-left: -20px;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  aside {
+    text-align: right;
+    float: right;
+    width: 70%;
+  }
+
+  #article {
+    position: absolute;
+    bottom: 0;
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+
+  img {
+    width: 200px;
+    height: auto;
+    margin-top: 20%;
+    margin-right: 10%;
+  }
+}
+
+/*--------------------*/
+
+/* tablet portrait */
+@media (min-device-width: 481px) and (max-device-width: 1024px) {
+  section {
+    text-align: left;
+    width: 25%;
+    float: left;
+  }
+
+  #year {
+    margin: 0;
+    margin-left: -20px;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  aside {
+    text-align: left;
+    float: right;
+    width: 70%;
+  }
+
+  #article {
+    position: absolute;
+    bottom: 20%;
+    max-width: 400px;
+    margin-right: 10px;
+    margin-bottom: 20%;
+    margin-left: -12%;
+  }
+
+  img {
+    width: 300px;
+    height: auto;
+    margin-top: 20%;
+    margin-left: 30%;
+    margin-right: 10px;
+  }
+}
+/*--------------------*/
+
+/*TABLET LANDSCAPE*/
+@media (min-device-width: 481px) and (max-device-width: 1024px) {
+  section {
+    text-align: left;
+    width: 25%;
+    float: left;
+  }
+
+  #year {
+    margin: 0;
+    margin-left: -20px;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  aside {
+    text-align: left;
+    float: right;
+    width: 70%;
+  }
+
+  #article {
+    position: absolute;
+    bottom: 20%;
+    max-width: 400px;
+    margin-right: 10px;
+    margin-bottom: 10%;
+    margin-left: -12%;
+  }
+
+  img {
+    width: 300px;
+    height: auto;
+    margin-top: 20%;
+    margin-left: 30%;
+    margin-right: 10px;
+  }
+}
+/*--------------------*/
+
+/*DESKTOP*/
+@media (min-device-width: 1025px) {
+  section {
+    text-align: left;
+    width: 25%;
+    float: left;
+  }
+
+  #year {
+    margin: 0;
+    margin-left: -20px;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  aside {
+    text-align: left;
+    float: right;
+    width: 70%;
+  }
+
+  #article {
+    position: absolute;
+    bottom: 0;
+    max-width: 400px;
+    margin-right: 10px;
+    margin-bottom: 10%;
+    margin-left: -20%;
+  }
+
+  img {
+    width: 400px;
+    height: auto;
+    margin-top: 20%;
+    margin-left: 30%;
+    margin-right: 10px;
+  }
+}
+/*--------------------*/
